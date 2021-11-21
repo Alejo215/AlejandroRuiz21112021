@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaTareas.Views.Main">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame
+                Margin="2"
+                VerticalOptions="StartAndExpand">
+                <StackLayout>
+                    <Entry
+                        Text="{Binding Nombre}"
+                        Margin="20"
+                        Placeholder="Tarea"
+                        Keyboard="Text"
+                        FontSize="Medium"
+                        PlaceholderColor="Gray"/>
+
+                    <Grid
+                        Margin="0,0,0,5">
+
+                        <Label 
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Start"
+                            Margin="99,0"
+                            Text="Completada:"
+                            TextColor="Black"
+                           />
+
+                        <CheckBox
+                            HorizontalOptions="End"
+                            IsChecked="{Binding Completada}"
+                            Margin="99,0"
+                            />
+
+                    </Grid>
+
+                    <Button 
+                        Command="{Binding AddEditCommand}"
+                        Text="{Binding TextoBoton}"
+                        Margin="20,0"/>
+
+                    <Button
+                        Command="{Binding DeleteTareaCommand}"
+                        IsVisible="{Binding Eliminar}"
+                        Text="Eliminar"
+                        Margin="20,0"/>
+                </StackLayout>
+            </Frame>
+
+            <ListView
+                ItemsSource="{Binding ListViewSource}"
+                HasUnevenRows="True"
+                SelectedItem="{Binding TareaSelected}">
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="100"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+                                    <Label Text="{Binding Nombre}" FontSize="Medium"/>
+                                    <Label Text="Completada" FontSize="Medium" IsVisible="{Binding Completada}"/>
+                                </StackLayout>
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

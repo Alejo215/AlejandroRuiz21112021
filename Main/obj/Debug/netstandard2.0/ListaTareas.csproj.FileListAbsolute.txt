@@ -1,0 +1,15 @@
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\bin\Debug\netstandard2.0\ListaTareas.deps.json
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\bin\Debug\netstandard2.0\ListaTareas.dll
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\bin\Debug\netstandard2.0\ref\ListaTareas.dll
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\bin\Debug\netstandard2.0\ListaTareas.pdb
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.AssemblyInfoInputs.cache
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.AssemblyInfo.cs
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.csproj.CoreCompileInputs.cache
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.dll
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ref\ListaTareas.dll
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.pdb
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\Views\Main.xaml.g.cs
+C:\Users\aruiz\Desktop\VS\Xamarin\ListaTareas\ListaTareas\obj\Debug\netstandard2.0\ListaTareas.csproj.AssemblyReference.cache
